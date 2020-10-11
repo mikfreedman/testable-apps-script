@@ -4,7 +4,7 @@
   "description": "Testable Apps Script",
   "scripts": {
     "build": "webpack",
-    "test": "echo 'no tests'"
+    "test": "karma start"
   },
   "private": true,
   "repository": "https://github.com/mikfreedman/testable-apps-script",
@@ -13,6 +13,7 @@
   "dependencies": {
     "gas-webpack-plugin": "^1.2.0",
     "webpack": "^4.0.0",
-    "webpack-cli": "^4.0.0"
+    "webpack-cli": "^4.0.0",
+    "webpack-karma-jasmine": "^4.0.0"
   }
 }
