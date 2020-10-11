@@ -6839,6 +6839,11 @@ temp@^0.8.1:
   dependencies:
     rimraf "~2.6.2"
 
+template-banner-webpack-plugin@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/template-banner-webpack-plugin/-/template-banner-webpack-plugin-1.1.2.tgz#9d448dc72ce2b1a1052abee6a9e7f8cc2e5380f7"
+  integrity sha1-nUSNxyzisaEFKr7mqef4zC5TgPc=
+
 terser-webpack-plugin@^1.4.3:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-1.4.5.tgz#a217aefaea330e734ffacb6120ec1fa312d6040b"
