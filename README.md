@@ -2,8 +2,23 @@
 
 ## Installation
 
+First, enable the Google Apps Script API: https://script.google.com/home/usersettings
+
 ```bash
 yarn install
+
+yarn run clasp login # Setup clasp for pushing code to google
+yarn run clasp pull  # Remove any code files you don't need, leave the appscript.json
+```
+
+Create a `.clasp.json` in the root of the project that looks like this
+
+
+```json
+{
+  "scriptId": "[script id from url]",
+  "rootDir": "dist/"
+}
 ```
 
 ## Development
@@ -26,5 +41,5 @@ yarn test
 ## Deploy
 
 ``` bash
-
+yarn run deploy
 ```
