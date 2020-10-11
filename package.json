@@ -2,8 +2,15 @@
   "name": "testable-apps-script",
   "version": "1.0.0",
   "description": "Testable Apps Script",
-  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "private": true,
   "repository": "https://github.com/mikfreedman/testable-apps-script",
   "author": "Michael Freedman",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
 }
