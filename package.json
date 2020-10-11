@@ -1,0 +1,9 @@
+{
+  "name": "testable-apps-script",
+  "version": "1.0.0",
+  "description": "Testable Apps Script",
+  "main": "index.js",
+  "repository": "https://github.com/mikfreedman/testable-apps-script",
+  "author": "Michael Freedman",
+  "license": "MIT"
+}
