@@ -1,4 +1,4 @@
-import echo from './echo'
+import echo from './echo.js'
 
 /**
  * Return write arguments.

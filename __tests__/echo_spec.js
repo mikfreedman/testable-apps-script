@@ -1,4 +1,4 @@
-import echo from '../src/echo';
+import echo from '../src/echo.js';
 
 describe("testing echo", () => {
     it("returns what you pass it", () => {
