@@ -1,4 +1,7 @@
+
 # testable-apps-script
+
+![test](https://github.com/mikfreedman/testable-apps-script/actions/workflows/test.yml/badge.svg)
 
 Developing code for [Google Apps Script](https://developers.google.com/apps-script) can be fun, but not being able to test things or use a regular javascript pipeline can be quite annoying.
 
