@@ -25,15 +25,14 @@ npm run clasp login # Setup clasp for pushing code to google
 
 Create a `.clasp.json` in the root of the project that looks like this
 
-Update the [Apps Script Manifest](https://developers.google.com/apps-script/concepts/manifests) located here: [src/appsscript.json](src/appsscript.json)
-
-
 ```json
 {
   "scriptId": "[script id from url]",
   "rootDir": "dist/"
 }
 ```
+Then, update the [Apps Script Manifest](https://developers.google.com/apps-script/concepts/manifests) located here: [src/appsscript.json](src/appsscript.json)
+
 
 ## Development
 [src/addon.js](src/addon.js) is the main entrypoint of the application, add your code there!
