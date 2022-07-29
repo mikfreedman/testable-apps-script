@@ -9,6 +9,7 @@ This project uses a combination of
 
 * [Webpack](https://webpack.js.org/)
 * [Google Clasp](https://github.com/google/clasp)
+* [Jest](https://jestjs.io/)
 
 To create a workable javascript pipeline for your [V8 Apps Script](https://developers.google.com/apps-script/guides/v8-runtime) project.
 
