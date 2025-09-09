@@ -38,24 +38,6 @@ This is an auto generated file, do not edit it directly!
 **********************************************************************
 */`;
 
-// Gas plugin functionality - add global object wrapper
-const gasPlugin = {
-  name: 'gas-plugin',
-  setup(build) {
-    build.onEnd(async (result) => {
-      if (result.errors.length > 0) return;
-      
-      const outputPath = path.join(__dirname, 'dist', 'bundle.js');
-      const content = fs.readFileSync(outputPath, 'utf8');
-      
-      // Wrap in GAS-compatible format
-      const gasContent = `${banner}\n${content}`;
-      
-      fs.writeFileSync(outputPath, gasContent);
-    });
-  },
-};
-
 // Clean and create dist directory
 if (fs.existsSync('./dist')) {
   fs.rmSync('./dist', { recursive: true });
@@ -71,9 +53,12 @@ try {
 
 // Build with esbuild
 esbuild.build({
-  entryPoints: ['./src/addon.js'],
+  entryPoints: ['./src/addon.ts'],
   bundle: true,
   outfile: './dist/bundle.js',
   plugins: [GasPlugin],
   minify: false,
+  banner: {
+    js: banner
+  }
 }).catch(() => process.exit(1));

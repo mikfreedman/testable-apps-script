@@ -34,7 +34,7 @@ Then, update the [Apps Script Manifest](https://developers.google.com/apps-scrip
 
 
 ## Development
-[src/addon.js](src/addon.js) is the main entrypoint of the application, add your code there!
+[src/addon.ts](src/addon.ts) is the main entrypoint of the application, add your code there!
 
 Be sure to add functions that you want Google Apps Script to see to the global variable created at the top of the file.
 
