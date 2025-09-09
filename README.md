@@ -38,6 +38,8 @@ Then, update the [Apps Script Manifest](https://developers.google.com/apps-scrip
 
 Be sure to add functions that you want Google Apps Script to see to the global variable created at the top of the file.
 
+If you want JSDoc-style comments to enable autocomplete for say publishing a library -- these only work if they're defined in the entrypoint file [src/addon.ts](src/addon.ts) and not with the function via an import statement.
+
 ```javascript
 global.newFunction = function() {
     console.log("newFunction")
