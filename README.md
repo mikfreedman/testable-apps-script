@@ -1,4 +1,3 @@
-
 # testable-apps-script
 
 ![test](https://github.com/mikfreedman/testable-apps-script/actions/workflows/test.yml/badge.svg)
@@ -7,7 +6,7 @@ Developing code for [Google Apps Script](https://developers.google.com/apps-scri
 
 This project uses a combination of 
 
-* [Webpack](https://webpack.js.org/)
+* [esbuild](https://esbuild.github.io/)
 * [Google Clasp](https://github.com/google/clasp)
 * [Jest](https://jestjs.io/)
 
