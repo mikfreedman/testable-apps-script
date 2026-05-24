@@ -12,7 +12,7 @@ const autoCompleteExample = (name: string): boolean => {
     return true
 }
 
-declare const global: any;
+declare const global: Record<string, unknown>;
 
 global.autoCompleteExample = autoCompleteExample;
 global.echo = echo;
